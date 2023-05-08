@@ -24,7 +24,7 @@ function init() {
   });
 
   // Changes for volume slider 
-  var iconsPath = "/assets/icons/volume-level-"
+  var iconsPath = "assets/icons/volume-level-"
   const vol = document.getElementById("volume");
   const volImg = document.getElementById("volume-controls").querySelector("img")
   vol.addEventListener("input", function () {
