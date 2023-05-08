@@ -29,7 +29,7 @@ function init() {
     speechSynthesis.onvoiceschanged = populateVoiceList;
   }
   
-  const imgPath = "/assets/images/"
+  const imgPath = "assets/images/"
   const tts = document.getElementById("text-to-speak");
   const btn = document.querySelector("button");
   const img = document.querySelector("img");

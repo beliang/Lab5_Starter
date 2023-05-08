@@ -5,8 +5,8 @@ const con = new JSConfetti();
 
 function init() {
   // TODO
-  var audioPath = "/assets/audio/";
-  var imgPath = "/assets/images/"
+  var audioPath = "assets/audio/";
+  var imgPath = "assets/images/"
 
   // Get all elements for horn sound and image
   const horn = document.getElementById("horn-select");
